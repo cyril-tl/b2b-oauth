@@ -1,0 +1,24 @@
+@import '~/assets/scss/spacing.scss';
+@import '~/assets/scss/typo.scss';
+
+@mixin global-cta {
+  width: $s-220;
+  height: $s-55;
+  font-size: $fs-20;
+  border-radius: $s-10;
+  text-transform: capitalize;
+}
+
+@mixin cta {
+  @include global-cta;
+  @include degrade-horizontal;
+  color: $color-white;
+  margin: $s-20 $null;
+  cursor: pointer;
+}
+
+@mixin cta-secondary {
+  @include global-cta;
+  background: $color-white;
+  color: $color-secondary;
+}

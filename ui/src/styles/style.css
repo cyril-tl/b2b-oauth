@@ -1,0 +1,110 @@
+/*#################   LES FORMULAIRES   #################*/
+.signin-container {
+	width: 80%;
+	height: 930px;
+	margin: auto;
+	display: flex;
+  	align-items: center;
+	justify-content: center;
+}
+.card {
+	/*min-width: 400px;*/
+	width: 400px;
+	max-width: 800px;
+	margin: auto;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+.card.signin-card {
+	width: 100%;
+}
+.card.reset-card {
+	width: 100%;
+}
+.card.create-card {
+	width: 100%;
+}
+.elevation-12 {
+	box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+
+	border-radius: 15px;
+	padding: 32px 0 5px 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-top: 20px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+form{
+	margin: auto;
+}
+form.signin-form {
+	margin: auto;
+}
+.form-group {
+	margin: auto;
+}
+.sectionLigth {
+	background-color: #eceeefa9;
+	padding: 2rem;
+}
+
+textarea {
+	width: 100%;
+	resize: vertical;
+	overflow: hidden;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title, 
+.ant-steps .ant-steps-item-active > .ant-steps-item-container .ant-steps-item-subtitle, 
+.ant-steps .ant-steps-item-active > .ant-steps-item-container .ant-steps-item-description {
+  color: green;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title:hover, 
+.ant-steps .ant-steps-item:not(.ant-steps-item-active) > .ant-steps-item-container[role='button']:hover .ant-steps-item-subtitle, 
+.ant-steps .ant-steps-item:not(.ant-steps-item-active) > .ant-steps-item-container[role='button']:hover .ant-steps-item-description {
+  color: #004085;
+}
+
+.ant-steps-item-title::after {
+	background-color: #004085;
+}
+
+/* ################ Les Boutons et Liens ################ */
+.mesLiens, .mesSteps {
+	color: #002043;
+    cursor: pointer;
+    margin: auto;
+}
+.mesLiens {
+    margin: auto;
+    text-align: center;
+}
+.mesLiens:hover, .mesSteps:hover {
+	color: #004794;
+}
+
+/* ############# les champs de formulaire ################# */
+/* input.ant-input:hover, input.ant-input-lg:hover{
+	border-color: #002043;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+} */
+.ant-input:focus, input.ant-input-lg:focus {
+	border-color: #002043;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+

@@ -1,0 +1,93 @@
+/* GLOBAL */
+$horizontal-center-margin: 0 auto;
+$mb-20-center: 20px center;
+$null: 0;
+$p-5: 5%;
+$p-7: 7%;
+$p-10: 10%;
+$p-17: 17%;
+$p-20: 20%;
+$p-24: 24%;
+$p-25: 25%;
+$p-30: 30%;
+$p-40: 40%;
+$p-45: 45%;
+$p-50: 50%;
+$p-60: 60%;
+$p-70: 70%;
+$p-80: 80%;
+$p-90: 90%;
+$p-100: 100%;
+$s-1: 1px;
+$s-3: 3px;
+$s-4: 4px;
+$s-5: 5px;
+$s-6: 6px;
+$s-7: 7px;
+$s-10: 10px;
+$s-15: 15px;
+$s-20: 20px;
+$s-25: 25px;
+$s-30: 30px;
+$s-35: 35px;
+$s-40: 40px;
+$s-50: 50px;
+$s-55: 55px;
+$s-60: 60px;
+$s-70: 70px;
+$s-80: 80px;
+$s-85: 85px;
+$s-90: 90px;
+$s-100: 100px;
+$s-110: 110px;
+$s-150: 150px;
+$s-200: 200px;
+$s-220: 220px;
+$s-250: 250px;
+$s-275: 275px;
+$s-280: 280px;
+$s-300: 300px;
+$s-350: 350px;
+$s-360: 360px;
+$s-375: 375px;
+$s-400: 400px;
+$s-450: 450px;
+$s-500: 500px;
+$s-590: 590px;
+$s-700: 700px;
+$s-800: 800px;
+/* FIN GLOBAL */
+
+/* HEADER */
+/* FIN HEADER */
+
+/* FOOTER */
+$copyright-width: 350px;
+$footer-column-flex: 0 0 25%;
+$footer-margin-center: 15%;
+$footer-padding-links: 1px 7px 2px;
+$footer-width-desktop: 70%;
+@mixin footer-second-column {
+  padding-left: 50px;
+  margin-right: -50px;
+}
+/* FIN FOOTER */
+
+/* MIXINS GLOBAL */
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex-center {
+  justify-content: center;
+  align-items: center;
+}
+/* FIN MIXINS GLOBAL */

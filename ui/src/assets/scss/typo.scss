@@ -1,0 +1,72 @@
+@import '~/assets/fonts/aileron/aileron-font-style.css';
+@import '~/assets/scss/spacing.scss';
+
+/*FONTS*/
+$font-family: 'Aileron';
+$fs-12: 0.75rem;
+$fs-13: 0.813rem;
+$fs-14: 0.875rem;
+$fs-15: 0.938rem;
+$fs-16: 1rem;
+$fs-18: 1.125rem;
+$fs-20: 1.25rem;
+$fs-22: 1.375rem;
+$fs-24: 1.5rem;
+$fs-26: 1.625rem;
+$fs-28: 1.75rem;
+$fs-30: 1.875rem;
+$fs-32: 2rem;
+$fs-48: 3rem;
+$fw-100: 100;
+$fw-200: 200;
+$fw-300: 300;
+$fw-400: 400;
+$fw-600: 600;
+/* FIN FONTS */
+
+/*COLORS*/
+$main-color: #434343 !default;
+$color-secondary: #FF5858 !default;
+$color-tertiary: #FF914D !default;
+$color-quaternary: #989191 !default;
+$color-quinary: #251e3d !default;
+$color-white: #fff;
+$color-black: #000;
+$color-label: #777;
+$color-grey: #e2e2e2;
+a:hover {
+  color: $color-secondary;
+}
+/* FIN COLORS */
+
+/* MIXINS TYPO */
+@mixin degrade-horizontal {
+  background-image:linear-gradient(to right, $color-secondary, $color-tertiary);
+}
+@mixin degrade-diagonal {
+  background-image:linear-gradient(45deg, $color-secondary, $color-tertiary);
+}
+@mixin home-section-title {
+  font-size: $fs-32;
+  font-weight: $fw-300;
+  color: $color-secondary;
+  text-transform: capitalize;
+}
+@mixin home-h2 {
+  font-size: $fs-24;
+  font-weight: $fw-300;
+  margin-bottom: $s-20;
+  color: $main-color;
+}
+@mixin footer-column-link {
+  line-height: 2;
+  font-size: $fs-16;
+  font-weight: $fw-400;
+}
+@mixin footer-column-title {
+  font-size: $fs-20;
+  font-weight: $fw-600;
+  margin-bottom: $s-5;
+  color: $color-black;
+}
+/* FIN MIXINS TYPO */
